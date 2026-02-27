@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rohit Enterprises | Electronics & Mobile Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Loader -->
+<div class="loader-wrapper" id="loader">
+    <div class="loader"></div>
+    <p>Rohit Enterprises</p>
+</div>
+
+<header>
+    <h1><i class="fas fa-bolt"></i> Rohit Enterprises</h1>
+    <p><i class="fas fa-store-alt"></i> Your Trusted Electronics & Mobile Store</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#inventory">Inventory</a>
+    <a href="#finance">0% Finance</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="section home-section">
+    <div class="container">
+        <h2>Welcome to Rohit Enterprises</h2>
+        
+        <!-- Image Placeholder -->
+        <div class="image-placeholder">
+            <img src="https://i.pinimg.com/1200x/6d/dd/64/6ddd64c3de47d48cc81a06236c50e2d6.jpg" 
+                 alt="Rohit Enterprises Store"
+                 loading="lazy"
+                 onerror="this.src='https://via.placeholder.com/800x400?text=Rohit+Enterprises'">
+            <div class="image-caption">
+                <i class="fas fa-map-marker-alt"></i> Arya Samaj Road, Samastipur
+            </div>
+        </div>
+        
+        <p class="home-description">
+            <i class="fas fa-check-circle"></i> 
+            All types of mobile phones and electronic appliances available at best prices.
+        </p>
+
+        <!-- Stats -->
+        <div class="stats-container">
+            <div class="stat-box">
+                <span class="stat-number">500+</span>
+                <span class="stat-label">Happy Customers</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">50+</span>
+                <span class="stat-label">Brands</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number">15+</span>
+                <span class="stat-label">Years Experience</span>
+            </div>
+        </div>
+
+        <!-- WhatsApp Button -->
+        <a href="https://wa.me/919955208756?text=Hi%20Rohit%20Enterprises%2C%20I'm%20interested%20in%20your%20products" 
+           class="whatsapp-btn" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            Inquire on WhatsApp
+        </a>
+    </div>
+</section>
+
+<!-- Inventory Section -->
+<section id="inventory" class="section inventory-section">
+    <div class="container">
+        <h2><i class="fas fa-clipboard-list"></i> Product Inventory</h2>
+        
+        <!-- Category Showcase -->
+        <div class="category-showcase">
+            <div class="category-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Mobile Phones</h3>
+                <p>All brands • Latest models</p>
+                <a href="https://wa.me/919955208756?text=Hi%2C%20I'm%20interested%20in%20Mobile%20Phones" 
+                   class="category-wa" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Check Price
+                </a>
+            </div>
+            
+            <div class="category-card">
+                <i class="fas fa-tv"></i>
+                <h3>Smart TVs</h3>
+                <p>4K • LED • OLED</p>
+                <a href="https://wa.me/919955208756?text=Hi%2C%20I'm%20interested%20in%20Smart%20TVs" 
+                   class="category-wa" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Check Price
+                </a>
+            </div>
+            
+            <div class="category-card">
+                <i class="fas fa-wind"></i>
+                <h3>Air Conditioners</h3>
+                <p>Split • Inverter • Window</p>
+                <a href="https://wa.me/919955208756?text=Hi%2C%20I'm%20interested%20in%20Air%20Conditioners" 
+                   class="category-wa" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Check Price
+                </a>
+            </div>
+            
+            <div class="category-card">
+                <i class="fas fa-ice-cream"></i>
+                <h3>Refrigerators</h3>
+                <p>Single • Double Door</p>
+                <a href="https://wa.me/919955208756?text=Hi%2C%20I'm%20interested%20in%20Refrigerators" 
+                   class="category-wa" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Check Price
+                </a>
+            </div>
+            
+            <div class="category-card">
+                <i class="fas fa-tshirt"></i>
+                <h3>Washing Machines</h3>
+                <p>Front • Top Load</p>
+                <a href="https://wa.me/919955208756?text=Hi%2C%20I'm%20interested%20in%20Washing%20Machines" 
+                   class="category-wa" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Check Price
+                </a>
+            </div>
+            
+            <div class="category-card">
+                <i class="fas fa-fan"></i>
+                <h3>Air Coolers</h3>
+                <p>Desert • Tower • Personal</p>
+                <a href="https://wa.me/919955208756?text=Hi%2C%20I'm%20interested%20in%20Air%20Coolers" 
+                   class="category-wa" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Check Price
+                </a>
+            </div>
+        </div>
+
+        <!-- Product Table (Keeping your original table) -->
+        <div class="inventory-container">
+            <table id="inventoryTable">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Product Name</th>
+                        <th>Brand</th>
+                        <th>Price (₹)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will come from JS -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Note about latest prices -->
+        <p class="price-note">
+            <i class="fas fa-info-circle"></i> 
+            Prices are indicative. Click WhatsApp button above for latest prices and offers.
+        </p>
+    </div>
+</section>
+
+<!-- Finance Section -->
+<section id="finance" class="section finance-section">
+    <div class="container">
+        <h2><i class="fas fa-hand-holding-usd"></i> 0% Interest Finance</h2>
+        
+        <div class="finance-grid">
+            <!-- Bajaj Finance -->
+            <div class="finance-card">
+                <div class="finance-icon">
+                    <i class="fas fa-landmark"></i>
+                </div>
+                <h3>Bajaj Finance</h3>
+                <div class="offer-badge">0% Interest</div>
+                <ul class="finance-features">
+                    <li><i class="fas fa-check"></i> Up to 24 months</li>
+                    <li><i class="fas fa-check"></i> No cost EMI</li>
+                    <li><i class="fas fa-check"></i> Instant approval</li>
+                </ul>
+                <a href="https://wa.me/919955208756?text=Hi%2C%20I%20want%20to%20know%20about%20Bajaj%20Finance%200%25%20EMI" 
+                   class="finance-wa" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Check Eligibility
+                </a>
+            </div>
+
+            <!-- HDB Finance -->
+            <div class="finance-card">
+                <div class="finance-icon">
+                    <i class="fas fa-building-columns"></i>
+                </div>
+                <h3>HDB Finance</h3>
+                <div class="offer-badge">0% Interest</div>
+                <ul class="finance-features">
+                    <li><i class="fas fa-check"></i> 6-18 months</li>
+                    <li><i class="fas fa-check"></i> Zero down payment</li>
+                    <li><i class="fas fa-check"></i> Quick processing</li>
+                </ul>
+                <a href="https://wa.me/919955208756?text=Hi%2C%20I%20want%20to%20know%20about%20HDB%20Finance%200%25%20EMI" 
+                   class="finance-wa" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Check Eligibility
+                </a>
+            </div>
+
+            <!-- TVS Credit -->
+            <div class="finance-card">
+                <div class="finance-icon">
+                    <i class="fas fa-credit-card"></i>
+                </div>
+                <h3>TVS Credit</h3>
+                <div class="offer-badge">0% Interest</div>
+                <ul class="finance-features">
+                    <li><i class="fas fa-check"></i> Up to 12 months</li>
+                    <li><i class="fas fa-check"></i> Flexible tenures</li>
+                    <li><i class="fas fa-check"></i> Widely accepted</li>
+                </ul>
+                <a href="https://wa.me/919955208756?text=Hi%2C%20I%20want%20to%20know%20about%20TVS%20Credit%200%25%20EMI" 
+                   class="finance-wa" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Check Eligibility
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section contact-section">
+    <div class="container">
+        <h2><i class="fas fa-phone-alt"></i> Contact Us</h2>
+        
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Address</h3>
+                        <p>Arya Samaj Road, Samastipur, Bihar – 848101</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+91 99552 08756</p>
+                        <p>+91 90316 73416</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h3>Store Hours</h3>
+                        <p>Mon - Sun: 10:00 AM - 8:00 PM</p>
+                        <p>Sunday: Closed</p>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/919955208756?text=Hi%2C%20I%20have%20a%20question%20about%20your%20store" 
+                   class="whatsapp-btn contact-wa" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    Message on WhatsApp
+                </a>
+            </div>
+            
+            <div class="contact-image">
+                <img src="https://images.unsplash.com/photo-1604719313366-bf1b5a7e3c6d?w=500&auto=format" 
+                     alt="Our Store"
+                     loading="lazy"
+                     onerror="this.src='https://via.placeholder.com/500x400?text=Our+Store'">
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Rohit Enterprises | All Rights Reserved</p>
+    <div class="footer-wa">
+        <a href="https://wa.me/919955208756?text=Hi%2C%20I'm%20visiting%20from%20your%20website" target="_blank">
+            <i class="fab fa-whatsapp"></i> Chat with us
+        </a>
+    </div>
+</footer>
+
+<!-- Back to Top -->
+<button id="backToTop" class="back-to-top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
